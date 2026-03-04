@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Inter", sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    height: 1800px;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.header {
+    height: 10%;
+    width: 100%;
+    background-color: aqua;
+}
+
+.banner {
+    height: 30%;
+    width: 100%;
+}
+
+.main-header {
+    height: 45%;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-box {
+    height: 60%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 15% 15% 30% 40%;
+}
+
+nav {
+    height: 25%;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.main {
+    height: 80%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+}
+
+.side-menu {
+    height: 100%;
+    width: 15%;
+    background-color: chartreuse;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    background-color: crimson;
+}
+
+.advertisement {
+    display: grid;
+    grid-template-rows: 65% 35%;
+    grid-template-columns: repeat(4, 1fr);
+    height: 40%;
+    width: 100%;
+    background-color: darkgray;
+    border: solid black;
+}
+
+.main-ad {
+    grid-column: 1 / -1;
+    border: solid black;
+}
+
+.sub-ad {
+    border: solid black;
+}
+
+.section {
+    flex: 1;
+    width: 100%;
+    background-color: darkcyan;
+    border: black solid;
+}
+
+.footer {
+    height: 10%;
+    width: 100%;
+    background-color: violet;
+}
