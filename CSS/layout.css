@@ -6,59 +6,59 @@
 
 body {
     font-family:"Inter", sans-serif;
-    font-size: 16px;
 }
 
 .container {
     height: 1800px;
     width: 100%;
-    background-color: #F5F5F5;
+    background-color: #ECECEC;
 }
 
 .header {
-    height: 10%;
+    height: 8%;
     width: 100%;
-    background-color: aqua;
 }
 
 .banner {
-    height: 30%;
+    height: 25%;
     width: 100%;
 }
 
 .main-header {
-    height: 45%;
+    height: 55%;
     width: 100%;
-    background-color: red;
+    background-color: #E30019;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .header-box {
-    height: 60%;
+    height: 58%;
     width: 80%;
     display: grid;
-    grid-template-columns: 15% 15% 30% 40%;
+    grid-template-columns: 15% 10% 40% 35%;
+    grid-gap: 20px;
 }
 
-nav {
-    height: 25%;
+.sub-header {
+    height: 22%;
     width: 100%;
-    background-color: antiquewhite;
 }
 
 .main {
-    height: 80%;
+    height: 82%;
     width: 100%;
-    background-color: cadetblue;
     display: flex;
+    padding: 20px 50px;
 }
 
 .side-menu {
     height: 100%;
     width: 15%;
-    background-color: chartreuse;
+    display: flex;
+    align-items: flex-start;
+    background-color: red;
 }
 
 .content {

@@ -7,7 +7,48 @@
   width: 100%;
   height: 100%;
   overflow: hidden;
-  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-box button {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sub-header {
+    border-bottom: 1px solid #E0E0E0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.sub-header a{
+    display: flex;
+    height: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 30px;
+    color: black;
+    border-right: 2px solid #CFCFCF;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sub-header svg {
+    margin-right: 8px;
+}
+
+.sub-header a:last-child {
+    border-right: none;
+}
+
+.sub-header a:hover {
+    background-color: #F7F7F8;
+    color: #e30019;
 }
 
 .logo img{
@@ -15,14 +56,84 @@
     width: 100%;
 }
 
-.menu {
-    
+.menu button {
+    height: 100%;
+    width: 90%;
+    background-color: #BE1529;
+    border: none;
+    color: white;
+    border-radius: 10px;
 }
 
 .searh {
+    display: flex;
+    border-radius: 10px;
+}
 
+.searh input{
+    height: 100%;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+}
+.searh input:focus {
+    outline: none;
+}
+
+.searh button {
+    height: 100%;
+    width: 10%;
+    background-color: white;
+    border: none;
+}
+
+.searh button svg {
+    width: 18px;
+    height: 18px;
 }
 
 .services {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
 
+.services>div {
+    height: 100%;
+    width: 100%;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    background-color: #BE1529;
+    border-radius: 10px;
+}
+
+.services a{
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.services svg {
+    width: 20px;
+    height: 20px;
+    stroke: white;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.services button {
+    height: 90%;
+    width: 90%;
+    background-color: #BE1529;
+    border: none;
+    color: white;
 }
