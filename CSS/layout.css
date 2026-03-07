@@ -6,77 +6,86 @@
 
 body {
     font-family:"Inter", sans-serif;
-}
-
-.container {
-    height: 1800px;
-    width: 100%;
     background-color: #ECECEC;
 }
 
-.header {
-    height: 8%;
+.wrapper {
+    min-height: 100vh;
     width: 100%;
 }
 
 .banner {
-    height: 25%;
+    aspect-ratio: 1280/ 50;
     width: 100%;
+    overflow: hidden;
 }
 
 .main-header {
-    height: 55%;
+    position: sticky;
+    top: 0;
     width: 100%;
+    z-index: 100;
     background-color: #E30019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main-header .container-xxl{
+    display: grid;
+    grid-template-columns: 15% 10% 40% 35%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.sub-header .container-xxl {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header-box {
-    height: 58%;
-    width: 80%;
-    display: grid;
-    grid-template-columns: 15% 10% 40% 35%;
-    grid-gap: 20px;
-}
-
-.sub-header {
-    height: 22%;
-    width: 100%;
-}
-
 .main {
-    height: 82%;
+    min-height: 1400px;
     width: 100%;
     display: flex;
-    padding: 20px 50px;
+}
+
+.main .container-xxl {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .side-menu {
-    height: 100%;
+    height: fit-content;
+    position: sticky;
+    top: 90px;
     width: 15%;
     display: flex;
-    align-items: flex-start;
     background-color: red;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 85%;
-    background-color: crimson;
+    gap: 10px;
 }
 
 .advertisement {
     display: grid;
-    grid-template-rows: 65% 35%;
+    grid-template-rows: auto auto;
     grid-template-columns: repeat(4, 1fr);
-    height: 40%;
     width: 100%;
-    background-color: darkgray;
     border: solid black;
+    gap: 10px;
 }
 
 .main-ad {
@@ -96,7 +105,7 @@ body {
 }
 
 .footer {
-    height: 10%;
+    height: 200px;
     width: 100%;
     background-color: violet;
 }

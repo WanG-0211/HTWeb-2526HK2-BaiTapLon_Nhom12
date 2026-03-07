@@ -1,18 +1,17 @@
 .banner img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 
-.header-box > div {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main-header .container-xxl > div {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.header-box button {
+.main-header .container-xxl button {
     cursor: pointer;
     font-size: 14px;
 }
@@ -47,13 +46,19 @@
 }
 
 .sub-header a:hover {
-    background-color: #F7F7F8;
     color: #e30019;
 }
 
-.logo img{
+.logo {
     height: 100%;
     width: 100%;
+    overflow: hidden;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .menu button {
@@ -68,6 +73,7 @@
 .searh {
     display: flex;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .searh input{
@@ -94,16 +100,15 @@
 }
 
 .services {
-    height: 100%;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
+    margin-left: 10px;
 }
 
 .services>div {
     height: 100%;
-    width: 100%;
+    width: 50%;
     display: flex;  
     align-items: center;
     justify-content: center;
@@ -127,7 +132,6 @@
     height: 20px;
     stroke: white;
     margin-right: 6px;
-    vertical-align: middle;
 }
 
 .services button {
@@ -136,4 +140,13 @@
     background-color: #BE1529;
     border: none;
     color: white;
+}
+
+.services *:hover {
+    background-color: #a01020;
+    border-radius: 10px;
+}
+
+.menu *:hover {
+    background-color: #a01020;
 }
