@@ -1,0 +1,18 @@
+.section .carousel-control-next,
+.section .carousel-control-prev{
+    height: 35px;   
+    width: 35px;
+    background-color: #ECECEC;
+    color: black;
+    font-size: 30px;
+}
+
+.section .carousel-control-next:hover,
+.section .carousel-control-prev:hover{
+    color: red;
+}
+
+.section .carousel-item {
+    transition: transform 0.8s;
+}
+
