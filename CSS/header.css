@@ -148,7 +148,7 @@
     display: flex;  
     align-items: center;
     justify-content: center;
-    background-color: #BE1529;
+    background-color: rgb(190, 21, 41);
     border-radius: 10px;
 }
 
@@ -173,32 +173,28 @@
 .services button {
     height: 90%;
     width: 90%;
-    background-color: #BE1529;
+    background-color: rgb(190, 21, 41);
     border: none;
     color: white;
 }
 
 .services *:hover {
-    background-color: #a01020;
+    background-color: rgb(160, 16, 32);
     border-radius: 10px;
 }
 
-/* .menu *:hover {
+.menu *:hover {
     background-color: #a01020;
-} */
-
-.menu {
-  position: relative;
 }
 
 .menu-danh-muc {
   position: relative;
 }
 
-.nut-danh-muc {
+.button-danhMuc{
   border: none;
-  background: #be1529;
-  color: #fff;
+  background: rgb(190, 21, 41);
+  color: white;
   padding: 10px 16px;
   border-radius: 10px;
   font-weight: 600;
@@ -207,8 +203,9 @@
 
 .hop-menu {
   position: absolute;
-  top: calc(100% + 10px);
-  left: 0;
+  top: 190%;
+  left: -200px;
+  margin-top: 10px;
   display: none;
   z-index: 2000;
 }

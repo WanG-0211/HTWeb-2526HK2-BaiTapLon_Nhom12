@@ -1,17 +1,7 @@
-.menu-box {
-    height: fit-content;
-    width: 100%;
-    position: sticky;
-    top: 20px;
-    border: solid black;
-    list-style: none;
-} 
-
-
 .menu-trai {
   width: 270px;
-  background: #fff;
-  border: 1px solid #d9d9d9;
+  background-color: white;
+  border: 1px solid rgb(217, 217, 217);
   border-radius: 6px 0 0 6px;
   overflow: visible;
   position: relative;
@@ -19,15 +9,13 @@
 }
 
 .ds-menu {
-  list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .muc-menu {
-  position: relative;
-  border-bottom: 1px solid #efefef;
-  list-style: none;
+  position: static;
+  border-bottom: 1px solid rgb(239, 239, 239);
 }
 
 .muc-menu:last-child {
@@ -36,18 +24,18 @@
 
 .link-menu {
   width: 100%;
-  background: #fff;
+  background-color: white;
   padding: 12px 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   text-align: left;
-  color: #111;
+  color: black;
   text-decoration: none;
 }
 
 .link-menu:hover {
-  color: #111;
+  color: black;
 }
 
 .muc-trai {
@@ -59,20 +47,20 @@
 
 .muc-trai i {
   font-size: 22px;
-  color: #333;
+  color: rgb(51, 51, 51);
   width: 24px;
 }
 
 .mui-ten {
   font-size: 14px;
   font-weight: bold;
-  color: #333;
+  color: rgb(51, 51, 51);
 }
 
 .muc-menu:hover > .link-menu,
 .muc-menu.active > .link-menu {
-  background: #ff2400;
-  color: #fff;
+  background: rgb(255, 36, 0);
+  color: white;
   position: relative;
 }
 
@@ -80,7 +68,7 @@
 .muc-menu:hover > .link-menu .mui-ten,
 .muc-menu.active > .link-menu .muc-trai i,
 .muc-menu.active > .link-menu .mui-ten {
-  color: #fff;
+  color: white;
 }
 
 .muc-menu:hover > .link-menu::after,
@@ -93,7 +81,7 @@
   height: 0;
   border-top: 21px solid transparent;
   border-bottom: 21px solid transparent;
-  border-left: 22px solid #ff2400;
+  border-left: 22px solid rgb(255, 36, 0);
 }
 
 .mega-menu {
@@ -102,8 +90,8 @@
   top: 0;
   width: 1230px;
   min-height: 100%;
-  background: #f3f3f3;
-  border: 1px solid #d9d9d9;
+  background: rgb(243, 243, 243);
+  border: 1px solid rgb(217, 217, 217);
   border-left: none;
   border-radius: 0 6px 6px 0;
   padding: 22px 26px;
@@ -123,7 +111,7 @@
 }
 
 .cot-mega h4 {
-  color: #ff1f2d;
+  color: rgb(255, 31, 45);
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 14px;
@@ -131,7 +119,7 @@
 
 .cot-mega a {
   display: block;
-  color: #2c2c2c;
+  color: rgb(44, 44, 44);
   text-decoration: none;
   margin-bottom: 12px;
   font-size: 17px;
@@ -139,7 +127,7 @@
 }
 
 .cot-mega a:hover {
-  color: #ff2400;
+  color: rgb(255, 36, 0);
 }
 
 @media (max-width: 1400px) {
@@ -151,4 +139,3 @@
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
