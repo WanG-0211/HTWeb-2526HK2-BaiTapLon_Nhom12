@@ -1,0 +1,23 @@
+.login-btn{
+    background-color: #D4010B;
+}
+
+.login-btn:hover {
+    background-color: #d4010ccf;
+}
+
+.login-google-btn {
+    background-color: #DF4A32;
+}
+
+.login-google-btn:hover {
+    background-color: #df4932cb;
+}
+
+.Dk-btn {
+    background-color: #d4010ccf;
+}
+
+.Dk-btn:hover {
+    background-color: #df4932cb;
+}
